@@ -32,6 +32,9 @@
     self.navigationItem.rightBarButtonItem = addButton;
 
     [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"Cell"];
+    [self insertNewObject:nil];
+    [self insertNewObject:nil];
+    [self insertNewObject:nil];
 }
 
 - (void)viewWillAppear:(BOOL)animated {
