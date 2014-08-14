@@ -1,0 +1,41 @@
+PODS:
+  - BlocksKit (2.2.3):
+    - BlocksKit/All
+  - BlocksKit/All (2.2.3):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+    - BlocksKit/MessageUI
+    - BlocksKit/UIKit
+  - BlocksKit/Core (2.2.3)
+  - BlocksKit/DynamicDelegate (2.2.3)
+  - BlocksKit/MessageUI (2.2.3):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+  - BlocksKit/UIKit (2.2.3):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+  - MMDrawerController (0.5.6):
+    - MMDrawerController/Core
+    - MMDrawerController/MMDrawerBarButtonItem
+    - MMDrawerController/MMDrawerVisualStates
+    - MMDrawerController/Subclass
+  - MMDrawerController/Core (0.5.6)
+  - MMDrawerController/MMDrawerBarButtonItem (0.5.6):
+    - MMDrawerController/Core
+  - MMDrawerController/MMDrawerVisualStates (0.5.6):
+    - MMDrawerController/Core
+  - MMDrawerController/Subclass (0.5.6):
+    - MMDrawerController/Core
+  - uiview-frame-helpers (0.1.1)
+
+DEPENDENCIES:
+  - BlocksKit (= 2.2.3)
+  - MMDrawerController
+  - uiview-frame-helpers (= 0.1.1)
+
+SPEC CHECKSUMS:
+  BlocksKit: 07c8a80f04275efac6a5f8b973782489c083a182
+  MMDrawerController: 4bae84535ca7a5f4cb55a66a001e6035c3571677
+  uiview-frame-helpers: 68ff15193c81e40695cb50f7eedee88e57077efc
+
+COCOAPODS: 0.33.1
